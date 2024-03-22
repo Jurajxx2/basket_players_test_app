@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_action_button">Show player list</string>
+    <string name="home_menu_player_list">Zoznam hráčov</string>
+    <string name="home_menu_team_list">Zoznam tímov</string>
+</resources>

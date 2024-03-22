@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="team_detail_name_field">Team name</string>
+    <string name="team_detail_city_field">City</string>
+    <string name="team_detail_conference_field">Conference</string>
+    <string name="team_detail_division_field">Division</string>
+</resources>

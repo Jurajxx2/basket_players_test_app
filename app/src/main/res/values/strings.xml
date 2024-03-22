@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Basket Players</string>
+    <string name="bottom_navigation_item_home">Home</string>
+    <string name="bottom_navigation_item_player_list">Basket Players</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_detail_name_field">Name</string>
+    <string name="player_detail_college_field">College</string>
+    <string name="player_detail_country_field">Country</string>
+    <string name="player_detail_height_field">Height</string>
+    <string name="player_detail_position_field">Position</string>
+    <string name="player_detail_team_field">Team</string>
+    <string name="player_detail_city_field">City</string>
+    <string name="player_detail_show_more_info_button">Show more info about team</string>
+    <string name="player_detail_team_title">Team</string>
+</resources>

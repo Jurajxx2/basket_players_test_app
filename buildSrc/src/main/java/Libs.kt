@@ -1,0 +1,32 @@
+//TODO apply libraries from build config module in gradle
+object Libs {
+    val androidx_core_ktx = "androidx.core:core-ktx:${Versions.coreKtx}"
+    val junit = "junit:junit:${Versions.junit}"
+    val androidx_junit = "androidx.test.ext:junit:${Versions.junitVersion}"
+    val androidx_espresso_core = "androidx.test.espresso:espresso-core:${Versions.espressoCore}"
+    val androidx_lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleRuntimeKtx}"
+    val androidx_activity_compose = "androidx.activity:activity-compose:${Versions.activityCompose}"
+    val androidx_compose_bom = "androidx.compose:compose-bom:${Versions.composeBom}"
+    val androidx_ui = "androidx.compose.ui:ui"
+    val androidx_ui_graphics = "androidx.compose.ui:ui-graphics"
+    val androidx_ui_tooling = "androidx.compose.ui:ui-tooling"
+    val androidx_ui_tooling_preview = "androidx.compose.ui:ui-tooling-preview"
+    val androidx_ui_test_manifest = "androidx.compose.ui:ui-test-manifest"
+    val androidx_ui_test_junit4 = "androidx.compose.ui:ui-test-junit4"
+    val androidx_material3 = "androidx.compose.material3:material3"
+    val androidx_appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
+    val material = "com.google.android.material:material:${Versions.material}"
+    val koin = "io.insert-koin:koin-androidx-compose:${Versions.koin}"
+    val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+    val retrofit_gson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
+    val glide = "com.github.bumptech.glide:compose:${Versions.glide}"
+    val navigation = "androidx.navigation:navigation-compose:${Versions.navigation}"
+
+    val pagingCompose = "androidx.paging:paging-compose:${Versions.pagingCompose}"
+    val lottie = "com.airbnb.android:lottie-compose:${Versions.lottie}"
+
+    val androidApplication = "com.android.application:${Versions.agp}"
+    val jetbrainsKotlinAndroid = "org.jetbrains.kotlin.android:${Versions.kotlin}"
+    val androidLibrary = "com.android.library:${Versions.agp}"
+    val kotlinSerialization = "plugin.serialization"
+}
