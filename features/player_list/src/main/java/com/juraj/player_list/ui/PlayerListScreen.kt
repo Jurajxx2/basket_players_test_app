@@ -61,32 +61,14 @@ fun PlayerListScreen(actions: PlayerListActions, viewModel: PlayerListViewModel 
         ) {
             items(playerList.itemCount) {
                 val item = playerList[it] ?: return@items
-                Row(
-                    modifier = Modifier.fillMaxWidth().clickable {
-                        actions.goToPlayerDetail(item.id)
-                    }
+                PlayerListItem(
+                    photoUrl = item.photoUrl,
+                    firstName = item.firstName,
+                    lastName = item.lastName,
+                    teamName = item.team?.fullName,
+                    position = item.position
                 ) {
-                    GlideImage(
-                        modifier = Modifier.padding(16.dp, 8.dp, 0.dp, 8.dp).size(80.dp),
-                        model = item.photoUrl,
-                        contentDescription = "",
-                        requestBuilderTransform = {
-                            it.diskCacheStrategy(DiskCacheStrategy.ALL)
-                        }
-                    )
-                    Column(
-                        Modifier.padding(8.dp, 8.dp, 16.dp, 8.dp)
-                    ) {
-                        Text(
-                            text = "${item.firstName} ${item.lastName}",
-                            fontSize = 20.sp,
-                        )
-                        item.team?.fullName?.let {
-                            Text(
-                                text =  it,
-                            )
-                        }
-                    }
+                    actions.goToPlayerDetail(item.id)
                 }
             }
         }
